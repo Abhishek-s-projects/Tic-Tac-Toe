@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+div#board{
+    display: grid;
+    background-color: #6318d2;
+    border: 4px solid #6318d2;
+    height: 180px;
+    width: 183px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+}
+
+
+#board > div{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+#board > div{
+    cursor: pointer;
+}
+
+p{
+    background-color: aliceblue;
+    color: rgb(255, 0, 0);
+}
